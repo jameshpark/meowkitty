@@ -49,7 +49,6 @@ def process_video(video_path):
         results = model(frame)
 
         # Check if a cat is detected
-        # Class 15 in COCO dataset is 'cat'
         cat_detected = False
 
         for result in results:
